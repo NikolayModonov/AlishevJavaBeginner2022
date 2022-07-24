@@ -2,15 +2,15 @@ package day6;
 
 public class Car {
     private int year;
-    private String Color;
-    private String Model;
+    private String color;
+    private String model;
 
     @Override
     public String toString() {
         return "Car{" +
                 "year=" + year +
-                ", Color='" + Color + '\'' +
-                ", Model='" + Model + '\'' +
+                ", Color='" + color + '\'' +
+                ", Model='" + model + '\'' +
                 '}';
     }
 
@@ -31,18 +31,18 @@ public class Car {
     }
 
     public String getColor() {
-        return Color;
+        return color;
     }
 
     public void setColor(String color) {
-        Color = color;
+        this.color = color;
     }
 
     public String getModel() {
-        return Model;
+        return model;
     }
 
     public void setModel(String model) {
-        Model = model;
+        this.model = model;
     }
 }

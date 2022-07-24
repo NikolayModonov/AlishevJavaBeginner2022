@@ -2,21 +2,21 @@ package day6;
 
 public class Bike {
     private int year;
-    private String Color;
-    private String Model;
+    private String color;
+    private String model;
 
     public Bike(int year, String color, String model) {
         this.year = year;
-        Color = color;
-        Model = model;
+        this.color = color;
+        this.model = model;
     }
 
     @Override
     public String toString() {
         return "Bike {" +
                 "year=" + year +
-                ", Color='" + Color + '\'' +
-                ", Model='" + Model + '\'' +
+                ", Color='" + color + '\'' +
+                ", Model='" + model + '\'' +
                 '}';
     }
 
@@ -37,18 +37,18 @@ public class Bike {
     }
 
     public String getColor() {
-        return Color;
+        return color;
     }
 
     public void setColor(String color) {
-        Color = color;
+        this.color = color;
     }
 
     public String getModel() {
-        return Model;
+        return model;
     }
 
     public void setModel(String model) {
-        Model = model;
+        this.model = model;
     }
 }
