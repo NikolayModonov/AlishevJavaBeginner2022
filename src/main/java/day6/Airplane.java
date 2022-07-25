@@ -1,8 +1,8 @@
 package day6;
 
 public class Airplane {
-    private int year;
     private String manufacturer;
+    private int year;
     private int length;
     private int weight;
     private int fuel;
