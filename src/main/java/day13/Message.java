@@ -17,10 +17,10 @@ public class Message {
 
     @Override
     public String toString() {
-        return "FROM: '" + sender + "'\n" +
-                "TO: '" + receiver + "'\n" +
-                "ON: " + date + "\n" +
-                "'" + date + '\'';
+        return "FROM: '" + sender +
+                "'\nTO: '" + receiver +
+                "'\nON: " + date +
+                "\n'" + text + '\'';
     }
 
     public User getSender() {
